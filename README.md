@@ -7,8 +7,10 @@ This project enables a D-Link DWM-221 LTE modem to work with the Toradex Colibri
 ### OpenEmbedded image
 
 Follow the instructions in https://developer.toradex.com/knowledge-base/board-support-package/openembedded-(core) to generate an image for your module and flash it.
-- In your local.conf file, make sure to add the lines:
-	- IMAGE_INSTALL_append = "ppp usb-modeswitch usb-modeswitch-data"
+
+In your local.conf file, make sure to add the lines:
+
+	IMAGE_INSTALL_append = "ppp usb-modeswitch usb-modeswitch-data"
 
 ### Kernel
 
@@ -80,10 +82,8 @@ It's also possible to add a udev rule to /etc/udev/rules.d/40-usb_modeswitch.rul
 
 From the repository directory, run **install.sh**:
 
-'''
-chmod +x install.sh
-./install.sh
-'''
+	chmod +x install.sh
+	./install.sh
 
 This will:
 
