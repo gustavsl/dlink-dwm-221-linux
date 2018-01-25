@@ -78,7 +78,13 @@ It's also possible to add a udev rule to /etc/udev/rules.d/40-usb_modeswitch.rul
 
 ### Setting up the PPP connection
 
-From the repository directory, run **install.sh**. This will:
+From the repository directory, run **install.sh**:
+'''
+chmod +x install.sh
+./install.sh
+'''
+
+This will:
 
 - Put the file **_options_** into **/etc/ppp/**. This is the PPP configuration file.
 - Put **_pap-secrets_** into **/etc/ppp/**. This is the login data for your carrier (Claro, in this example).
