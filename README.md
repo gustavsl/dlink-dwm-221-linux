@@ -46,7 +46,7 @@ Build the kernel and flash it to the module.
 
 ### Setting up the device
 
-Plug the modem to a USB port on your board. Make sure a SIM card is inserted into the module.
+Plug the modem to a USB port on your board. Make sure a SIM card is inserted into the modem.
 Check if the device is detected by the system:
 
     
