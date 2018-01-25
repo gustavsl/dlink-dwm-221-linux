@@ -79,6 +79,7 @@ It's also possible to add a udev rule to /etc/udev/rules.d/40-usb_modeswitch.rul
 ### Setting up the PPP connection
 
 From the repository directory, run **install.sh**:
+
 '''
 chmod +x install.sh
 ./install.sh
