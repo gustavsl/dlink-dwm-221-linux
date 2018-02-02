@@ -96,7 +96,7 @@ This will:
 
 Run _pon_ to connect:
 
-    # pon claro-3g.provider
+    # pon claro-provider.3g
 
 
 You can check the log file to see connection information. The log file is /home/root/ppp:
